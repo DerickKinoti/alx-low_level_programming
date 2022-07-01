@@ -7,20 +7,37 @@
  */
 int main(void)
 {
-	char ch;
+	int ch;
 
-	for (ch = "a"; ch <= "z"; ch++)
+	int n;
 
+	int m;
+
+	for (ch = 48; ch <= 57; ch++)
 	{
-		if (ch != 'q' && ch != 'e')
+	for (n = 49; n <= 57; n++)
+	{
+	for (m = 50; m <= 57; n++)
+	{
+		if (n > ch && m > n)
 		{
 			putchar(ch);
+			putchar(n);
+			putchar(m);
+
+		if (ch != 55 || n != 56 || m != 57)
+		{
+			putchar(44);
+			putchar(32);
+		}
 		}
 	}
-
-	for (ch = 65; ch <= 90; ch++)
+	}
+	}
 
 	putchar(10);
 
 	return (0);
 }
+
+
