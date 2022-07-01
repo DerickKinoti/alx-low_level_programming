@@ -10,18 +10,10 @@ int main(void)
 
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(ch)
+		putchar(ch);
 	}
 
-	char ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'q' && ch != 'e')
-		{
-			putchar(ch);
-		}
-	} 
+	putchar(10);
 
 	return (0);
 }
