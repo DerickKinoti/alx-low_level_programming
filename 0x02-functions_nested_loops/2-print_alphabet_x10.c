@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main-Entry point
+ * print_alphabet-prints the alphabet ten times
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int j;
 
