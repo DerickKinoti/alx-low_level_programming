@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main-Entry point
  * print_sign-print sign based on condition
  * @n:arg passed
  * Returns:1, 0, -1
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 	if (n > 0)
 	{
