@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * main-Entry point
+ * _islower-lowercase in alphabet
  * @c:character arg
  * Returns:1 and 0 depending on alphabet state
  */
