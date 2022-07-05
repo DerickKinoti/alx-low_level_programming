@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign-print sign based on condition
- * @n:arg passed
- * Returns:1, 0, -1
+ * print_sign -> prints sign based on condition
+ * @n: arg passed
+ * Return: 1, 0 -1
  */
 int print_sign(int n)
 {
@@ -17,10 +17,9 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else  
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);
 	}
 }
-
