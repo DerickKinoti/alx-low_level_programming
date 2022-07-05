@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * _islower-lowercase in alphabet
+ *_islower-checks for lowercase letters
  * @c:character arg
  * Returns:1 and 0 depending on alphabet state
  */
