@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * _islower-checks for lowercase letters and prints depending on condition
+/**
+ * _islower-checks on the case of character depending on condition
  * @c:character arg
  * Returns:1 and 0 depending on alphabet state
  */
