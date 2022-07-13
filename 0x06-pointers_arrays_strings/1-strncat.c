@@ -3,7 +3,7 @@
 /**
  * _strncat - Concatenates two strings
  * @dest: The string to be appended
- * src: The string to be appended
+ * @src: The string to be appended
  * @n: The number of bytes from src to be appended
  * Return: A pointer to the resulting string
  */
